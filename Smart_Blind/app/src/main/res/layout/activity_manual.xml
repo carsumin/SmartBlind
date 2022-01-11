@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".manual">
+
+    <TextView
+        android:text="Smart Blind"
+        android:textSize="50dp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="#ACACAB"
+        android:background="#F6EFAB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/testtest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="70dp"
+        android:text="블라인드 각도 조절"
+        android:textAlignment="center"
+        android:textSize="25dp" />
+
+    <NumberPicker
+        android:layout_margin="15dp"
+        android:id="@+id/manual"
+        android:layout_width="274dp"
+        android:layout_height="191dp"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/manualup"
+        android:layout_gravity="center_horizontal"
+        android:text="설정"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+<!--    <TextView-->
+<!--        android:layout_margin="50dp"-->
+<!--        android:text="Mode1 : 70% 닫음\nMode2 : 50% 닫음\nMode3 : 20% 닫음"-->
+<!--        android:textSize="25dp"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"/>-->
+
+
+</LinearLayout>

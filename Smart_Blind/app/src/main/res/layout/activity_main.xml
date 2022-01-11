@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#F6EFAB"
+        android:padding="10dp"
+        android:text="Smart Blind"
+        android:textAlignment="center"
+        android:textColor="#ACACAB"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/setting"
+            android:layout_marginLeft="300dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="#00ff0000"
+            android:padding="10dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/setting" />
+
+        <ImageButton
+            android:id="@+id/moreaction"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:background="#00ff0000"
+            android:scaleType="centerInside"
+            android:src="@drawable/moreaction" />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/arrowup"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="85dp"
+        android:background="#00ff0000"
+        android:padding="10dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/arrowup" />
+
+    <ImageButton
+        android:id="@+id/arrowdown"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="#00ff0000"
+        android:padding="10dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/arrowdown" />
+
+</LinearLayout>
